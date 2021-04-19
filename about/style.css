@@ -22,3 +22,17 @@ body{
 .about_body{
     text-align: center;
 }
+.button{
+    background-color: #114e60;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+
+}
+.button:hover{
+    text-decoration: none;
+    color: #fff;
+    background-color: #542e71;
+    transition: 0.4s;
+
+}
