@@ -38,3 +38,7 @@ body{
     transition: 0.4s;
 
 }
+h6{
+    text-align: left;
+    padding-bottom: 20px;
+}
