@@ -9,9 +9,16 @@ body{
 }
 .navbar{
     background-color: #264C64;
-    color: #fff;
+    
 }
 .navbar-brand{
     font-family: 'Acme', sans-serif;
     letter-spacing: 1px;
+}
+.profile{
+    width: 30vh;
+    border-radius: 50%;
+}
+.about_body{
+    text-align: center;
 }
