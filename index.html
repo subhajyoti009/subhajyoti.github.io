@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Subhajyoti Haldar</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 </head>
 <body>
@@ -14,7 +15,7 @@
             <h1>Subhajyoti Haldar</h1>
             <p>PHOTOGRAPHER</p>
             
-            <button><a class="enter" href="portfolio/portfolio.html">ENTER</a></button>
+            <button data-aos="fade-up"><a class="enter" href="portfolio/portfolio.html">ENTER</a></button>
         </div>
         
 
@@ -23,6 +24,12 @@
 
 
 
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 120,
+        duration: 3000,
+      });
+    </script>
 </body>
 </html>
