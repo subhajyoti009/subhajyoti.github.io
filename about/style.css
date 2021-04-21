@@ -10,6 +10,9 @@ body{
     
     
 }
+p{
+    font-size: 15px;
+}
 .navbar{
     background-color: #c72c41;
     
@@ -53,4 +56,11 @@ h6{
 hr{
     width: 10%;
     background-color: #c72c41;
+}
+.contact{
+    text-align: center;
+}
+.btn{
+    margin: 1rem;
+    padding: 0.5rem;
 }
