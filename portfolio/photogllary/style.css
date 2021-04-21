@@ -33,6 +33,12 @@ body {
 	padding: 3.5rem 0;
 	color: #1a1a1a;
 }
+@media only screen and (max-width: 600px) {
+	.heading {
+	  font-size: 2rem;
+	  padding: 2rem 0;
+	}
+  }
 
 .heading span {
 	display: block;
@@ -85,4 +91,24 @@ Remove or comment-out the code block below to see how the browser will fall-back
 	.gallery-item {
 		margin: 0;
 	}
+}
+
+
+
+hr{
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+hr:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
 }
