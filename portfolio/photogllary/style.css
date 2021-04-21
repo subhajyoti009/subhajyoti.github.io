@@ -112,3 +112,9 @@ hr:after {
     padding: 0 0.25em;
     background: white;
 }
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 15%;
+  }
