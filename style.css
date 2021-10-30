@@ -41,7 +41,7 @@ body {
  
  button{
      color: cornsilk;
-     background-color: #c72c41;
+     background-image: linear-gradient(to right, #f2299b, #e426b2, #cf2fc9, #b03de0, #804df6);
      text-decoration: none;
      border: none;
      
