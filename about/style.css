@@ -3,84 +3,92 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:500);
 @import url('https://fonts.googleapis.com/css2?family=Marko+One&display=swap');
 
-body{
+body {
     margin: 0;
     padding: 0;
     font-family: "Montserrat", Arial, sans-serif;
-    background-color: #daf1ff;  
+    background-color: #daf1ff;
 }
-p{
+
+p {
     font-size: 15px;
 }
-.navbar{
+
+.navbar {
     background-color: #0A192F;
     font-family: 'Marko One', serif;
-    
+
 }
-.navbar-brand{
+
+.navbar-brand {
     font-family: 'Acme', sans-serif;
     letter-spacing: 1px;
 }
-.profile{
+
+.profile {
     width: 30vh;
     border-radius: 50%;
 }
-.about_body{
+
+.about_body {
     text-align: center;
     padding: 2.5rem;
 }
-.button{
+
+.button {
     background-color: #114e60;
     color: #fff;
     padding: 10px 20px;
     border-radius: 5px;
 
 }
-.button:hover{
+
+.button:hover {
     text-decoration: none;
     color: #fff;
     background-color: #542e71;
     transition: 0.4s;
 
 }
-h6{
+
+h6 {
     text-align: left;
     padding-bottom: 20px;
 }
 
 
-.services{
+.services {
     text-align: center;
-    padding:1.5rem 0;
+    padding: 1.5rem 0;
 }
-hr{
+
+hr {
     width: 10%;
     background-color: #c72c41;
 }
-.contact{
+
+.contact {
     text-align: center;
 }
-.btn{
+
+.btn {
     margin: 1rem;
     padding: 0.5rem;
 }
-.social a{
+
+.social a {
     color: black;
     margin-top: 1rem;
     padding: 10px 10px 0 10px;
 }
 
-
-
-
-
-
-.designer{
+.designer {
     text-align: center;
     padding: 4rem 0 0 0;
-    
+
 }
-.designer a{
+
+.designer a {
     color: #6e7c7c;
     text-decoration: none;
     font-size: smaller;
