@@ -6,6 +6,7 @@
 body{
     margin: 0;
     padding: 0;
+    height: 100vh;
     font-family: 'Marko One', serif;
     background-image: linear-gradient(to top, #9aeaf6, #bbedff, #daf1ff, #f2f7ff, #ffffff);
     
