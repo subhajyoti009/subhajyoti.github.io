@@ -6,8 +6,8 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Marko One', serif;
-    background-color: #daf1ff;
+    font-family: "Montserrat", Arial, sans-serif;
+    background-color: #FAFAFA;
 }
 
 h3 {
@@ -45,6 +45,10 @@ h3 {
 .designer {
     text-align: center;
     padding: 4rem 0 0 0;
+}
+.designer a:hover{
+    color: #eb8006;
+    transition: 0.5s;
 }
 
 .designer a {
